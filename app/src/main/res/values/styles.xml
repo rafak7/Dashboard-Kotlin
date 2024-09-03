@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Estilo personalizado para botões -->
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Estilo personalizado para campos de texto -->
+    <style name="CustomEditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColorHint">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+</resources>
